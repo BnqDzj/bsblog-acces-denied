@@ -55,7 +55,7 @@ fetch('https://api.tjit.net/api/ip/query')
     .then(response => response.json())
     .then(data => {
       const IP_all = data
-      const IP = document.querySelector('#IP')
+      const IP = document.querySelector('#ip')
       // hitokoto.href = `https://hitokoto.cn/?uuid=${data.uuid}`
       IP.innerText = "Your IP address: " + data.ip
       // console.log(IP_all)
