@@ -1,4 +1,2 @@
-# bsblog-acces-denied
+# bsblog-error-page
 custom error page
-
-Imitate ChatGPT Access denied
