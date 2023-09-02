@@ -57,7 +57,7 @@ fetch('https://api.imyrs.cn/v1/ip')
       const IP_all = data
       const IP = document.querySelector('#IP')
       // hitokoto.href = `https://hitokoto.cn/?uuid=${data.uuid}`
-      IP.innerText = "Your IP address: " + data.ip
+      IP.innerText = "Your IP address: " + data.data.ip
       // console.log(IP_all)
     })
     .catch(console.error)
