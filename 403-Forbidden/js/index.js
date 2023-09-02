@@ -51,7 +51,7 @@ Server_ID += pasArr[x];
 const Server_ID_txt = document.querySelector('#Server_ID')
 Server_ID_txt.innerText = "Server ID: " + Server_ID
 
-fetch('https://api.tjit.net/api/ip/query')
+fetch('https://api.imyrs.cn/v1/ip')
     .then(response => response.json())
     .then(data => {
       const IP_all = data
